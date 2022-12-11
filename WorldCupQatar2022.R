@@ -159,116 +159,12 @@ function(team) {
     return(SaudiArabia)
   }else if(team == "USA"){
     return(USA)
+  }else if(team == "Wales"){
+    return(Wales)
   }else{
     message("The Team selected is not participating in the Qatar FIFA WORLD CUP 2022 || Cross check for typos! | Teams starting with the first letter in an uppercase format")
   }  
 }
 
-
-
-
-GROUPA <- c("Ecuador","Netherlands","Qatar","Senegal")
-
-GROUPB <- c("England","Iran","UnitedStates","Wales")
-
-GROUPC <- c("Argentina","Mexico","Poland","SaudiArabia")
-
-GROUPD <- c("Australia","Denmark","France","Tunisia")
-
-GROUPE <- c("CostaRica","Germany","Japan","Spain")
-
-GROUPF <- c("Belgium","Canada","Croatia","Morocco")
-
-GROUPG <- c("Brazil","Cameroon","Serbia","Switzerland")
-
-GROUPH <- c("Ghana","Portual","SouthKorea","Uruguay")
-
-#* @get /groups
-#* @param group
-function(group) {
-  if(group == "A"){
-    return(GROUPA)
-  }else if(group == "B"){
-    return(GROUPB)
-  }else if(group == "C"){
-    return(GROUPC)
-  }else if(group == "D"){
-    return(GROUPD)
-  }else if(group == "E"){
-    return(GROUPE)
-  }else if(group == "F"){
-    return(GROUPF)
-  }else if(group == "G"){
-    return(GROUPG)
-  }else if(group == "H"){
-    return(GROUPH)
-  }else{
-    message("The Group selected does not exist! | Please check for typos and try again! | Thanks!")
-  }
-}
-
-#* @get /teams
-#* @param team
-function(team) {
-  if(team == "Ecuador"){
-    return(Ecuador)
-  }else if(team == "Netherlands"){
-    return(Netherlands)
-  }else if(team == "Qatar"){
-    return(Qatar)
-  }else if(team == "Senegal"){
-    return(Senegal)
-  }else if(team == "Australia"){
-    return(Australia)
-  }else if(team == "Denmark"){
-    return(Denmark)
-  }else if(team == "France"){
-    return(France)
-  }else if(team == "Tunisia"){
-    return(Tunisia)
-  }else if(team == "CostaRica"){
-    return(CostaRica)
-  }else if(team == "Germany"){
-    return(Germany)
-  }else if(team == "Japan"){
-    return(Japan)
-  }else if(team == "Spain"){
-    return(Spain)
-  }else if(team == "Belgium"){
-    return(Belgium)
-  }else if(team == "Canada"){
-    return(Canada)
-  }else if(team == "Croatia"){
-    return(Croatia)
-  }else if(team == "Morocco"){
-    return(Morocco)
-  }else if(team == "Brazil"){
-    return(Brazil)
-  }else if(team == "Cameroon"){
-    return(Cameroon)
-  }else if(team == "Serbia"){
-    return(Serbia)
-  }else if(team == "Switzerland"){
-    return(Switzerland)
-  }else if(team == "Ghana"){
-    return(Ghana)
-  }else if(team == "Portugal"){
-    return(Portugal)
-  }else if(team == "SouthKorea"){
-    return(SouthKorea)
-  }else if(team == "Uruguay"){
-    return(Uruguay)
-  }else if(team == "Argentina"){
-    return(Argentina)
-  }else if(team == "Poland"){
-    return(Poland)
-  }else if(team == "Mexico"){
-    return(Mexico)
-  }else if(team == "SaudiArabia"){
-    return(SaudiArabia)
-  }else{
-    message("The Team selected is not participating in the Qatar FIFA WORLD CUP 2022 | Cross check for typos! | Teams starting with the first letter in an uppercase format")
-  }  
-}
 
 
