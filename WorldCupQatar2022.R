@@ -157,6 +157,8 @@ function(team) {
     return(Mexico)
   }else if(team == "SaudiArabia"){
     return(SaudiArabia)
+  }else if(team == "USA"){
+    return(USA)
   }else{
     message("The Team selected is not participating in the Qatar FIFA WORLD CUP 2022 || Cross check for typos! | Teams starting with the first letter in an uppercase format")
   }  
