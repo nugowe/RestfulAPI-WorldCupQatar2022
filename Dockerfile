@@ -5,8 +5,11 @@ RUN R -e "install.packages('dplyr')"
 RUN R -e "install.packages('polite')"
 RUN R -e "install.packages('rvest')"
 EXPOSE 8000
-COPY . /api
-CMD ["/api/WorldCupQatar2022.R"]
+COPY . /usr/local/lib/R/site-library/plumber/plumber/04-mean-sum/
+
+CMD ["/usr/local/lib/R/site-library/plumber/plumber/04-mean-sum//WorldCupQatar2022.R"]
+
+
 
 
 
